@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <style>
+      * {
+        margin: 0%;
+        box-sizing: border-box;
+        padding: 0%;
+        background-color: #30336b;
+      }
+
+      #wrapper {
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+        position: absolute;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      #video {
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        position: fixed;
+        z-index: 2;
+      }
+
+      #content {
+        position: relative;
+        top: 69%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: 0px 15px 150px 15px;
+        padding-bottom: 20px;
+      }
+
+      #content h3 {
+        font-weight: 500;
+        font-size: 1rem;
+        color: #c7ecee;
+      }
+
+      #content div {
+        line-height: 1.5rem;
+      }
+
+      #content p {
+        font-weight: 500;
+        font-size: 0.8rem;
+        color: #95afc0;
+      }
+
+      ::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="video">
+        <iframe
+          width="100%"
+          height="500"
+          src="https://www.youtube.com/embed/7fjOw8ApZ1I?si=cQ6nWgiD8IzTlH_z"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+      </div>
+      <div id="content">
+        <div>
+          <h3>Name</h3>
+          <p>Rahul Kumar</p>
+        </div>
+        <div>
+          <h3>Age</h3>
+          <p>30</p>
+        </div>
+        <div>
+          <h3>Position</h3>
+          <p>Software Developer</p>
+        </div>
+        <div>
+          <h3>Name</h3>
+          <p>Rahul Kumar</p>
+        </div>
+        <div>
+          <h3>Age</h3>
+          <p>30</p>
+        </div>
+        <div>
+          <h3>Position</h3>
+          <p>Software Developer</p>
+        </div>
+        <div>
+          <h3>Name</h3>
+          <p>Rahul Kumar</p>
+        </div>
+        <div>
+          <h3>Age</h3>
+          <p>30</p>
+        </div>
+        <div>
+          <h3>Position</h3>
+          <p>Software Developer</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
