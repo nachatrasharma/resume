@@ -58,6 +58,12 @@
       ::-webkit-scrollbar {
         display: none;
       }
+
+      .line {
+        width: 100%;
+        background-color: #95afc0;
+        height: 1px;
+      }
     </style>
   </head>
   <body>
@@ -71,9 +77,15 @@
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen></iframe>
+          allowfullscreen
+        ></iframe>
       </div>
       <div id="content">
+        <div style="display: flex; font-size: 0.8rem; justify-content: end">
+          <p>User ID:</p>
+          <p>6565565</p>
+        </div>
+        <div class="line"></div>
         <div>
           <h3>Name</h3>
           <p>Rahul Kumar</p>
