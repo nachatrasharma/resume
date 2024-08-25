@@ -15,8 +15,7 @@
         margin: 0%;
         box-sizing: border-box;
         padding: 0%;
-        /* background-color: #30336b; */
-        background-color: #4a69bd;
+        background-color: #122046;
       }
 
       #wrapper {
@@ -25,7 +24,8 @@
         overflow-x: hidden;
         overflow-y: auto;
         position: absolute;
-        font-family: "Inconsolata", monospace;
+        /* font-family: "Inconsolata", monospace; */
+        font-family: sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
@@ -42,7 +42,7 @@
 
       #content {
         position: relative;
-        top: 66%;
+        top: 56%;
         display: flex;
         flex-direction: column;
         gap: 30px;
@@ -62,7 +62,7 @@
       }
 
       #content p {
-        font-weight: 500;
+        font-weight: 400;
         font-size: 1rem;
         color: #fff;
       }
@@ -76,6 +76,9 @@
         background-color: #fff;
         height: 1px;
       }
+      .userID {
+        display: flex;
+      }
     </style>
   </head>
   <body>
@@ -83,7 +86,7 @@
       <div id="video">
         <iframe
           width="100%"
-          height="500"
+          height="400"
           src="https://www.youtube.com/embed/7fjOw8ApZ1I?si=cQ6nWgiD8IzTlH_z"
           title="YouTube video player"
           frameborder="0"
@@ -93,59 +96,98 @@
         ></iframe>
       </div>
       <div id="content">
-        <div style="display: flex; font-size: 0.8rem; justify-content: end">
-          <p style="color: #1e272e; font-weight: 700">User ID:</p>
-          <p style="color: #1e272e; font-weight: 700">6565565</p>
-        </div>
-        <div class="line"></div>
-        <div>
-          <h3>Name</h3>
-          <p>Rahul Kumar</p>
-        </div>
-        <div>
-          <h3>Age</h3>
-          <p>30</p>
-        </div>
-        <div>
-          <h3>Position</h3>
-          <p>Software Developer</p>
+        <div style="display: flex; gap: 10px; justify-content: end">
+          <div>
+            <p style="color: gray; font-size: 0.85rem; font-weight: 400">
+              3 Nov 2023
+            </p>
+          </div>
+          <div class="userID">
+            <p style="color: gray; font-weight: 400; font-size: 0.85rem">ID</p>
+            <p style="color: gray; font-weight: 400; font-size: 0.85rem">
+              6565565
+            </p>
+          </div>
         </div>
         <div>
-          <h3>Name</h3>
-          <p>Rahul Kumar</p>
-        </div>
-        <div>
-          <h3>Age</h3>
-          <p>30</p>
-        </div>
-        <div>
-          <h3>Position</h3>
-          <p>Software Developer</p>
-        </div>
-        <div>
-          <h3>Name</h3>
-          <p>Rahul Kumar</p>
-        </div>
-        <div>
-          <h3>Age</h3>
-          <p>30</p>
-        </div>
-        <div>
-          <h3>Position</h3>
-          <p>Software Developer</p>
-        </div>
-        <div class="line"></div>
-        <div style="display: flex; font-size: 0.8rem; justify-content: center">
-          <p
-            style="
-              width: 90%;
-              text-align: center;
-              font-size: 0.9rem;
-              color: #000;
-            "
+          <span style="color: gray; font-weight: 400; font-size: 0.85rem"
+            >NAME</span
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-            quibusdam
+          <p style="font-size: 1.4rem; line-height: 1.4rem">
+            Rashmi Kumar Sahu
+          </p>
+        </div>
+        <div>
+          <span style="color: gray; font-weight: 400; font-size: 0.85rem"
+            >DATE OF BIRTH</span
+          >
+          <p style="font-size: 1.4rem; line-height: 1.4rem">
+            23 Jan 1992 (30 Years)
+          </p>
+        </div>
+        <div>
+          <span style="color: gray; font-weight: 400; font-size: 0.85rem"
+            >LOCATION</span
+          >
+          <p style="font-size: 1.4rem; line-height: 1.4rem">Jabalpur, MP</p>
+        </div>
+        <div>
+          <span style="color: gray; font-weight: 400; font-size: 0.85rem"
+            >LANGUAGE SPOKEN</span
+          >
+          <p style="font-size: 1.4rem; line-height: 1.4rem">
+            Hindi, English, Odia
+          </p>
+        </div>
+        <div>
+          <span style="color: gray; font-weight: 400; font-size: 0.85rem"
+            >GRADUATION</span
+          >
+          <p style="font-size: 1.4rem; line-height: 2rem">
+            Political Science, Jabalpur University
+          </p>
+        </div>
+        <div>
+          <span style="color: gray; font-weight: 400; font-size: 0.85rem"
+            >POST GRADUATION</span
+          >
+          <p style="font-size: 1.4rem; line-height: 2rem">
+            Political Science, Delhi University
+          </p>
+        </div>
+        <div>
+          <span style="color: gray; font-weight: 400; font-size: 0.85rem"
+            >DOCTORATE</span
+          >
+          <p style="font-size: 1.4rem; line-height: 2rem">
+            Political Science, Jawaharlal University, Delhi
+          </p>
+        </div>
+        <div>
+          <span style="color: gray; font-weight: 400; font-size: 0.85rem"
+            >DIPLOMA COURSE</span
+          >
+          <p style="font-size: 1.4rem; line-height: 2rem">
+            Global Diplomacy, University of Lodon
+          </p>
+        </div>
+        <div>
+          <span style="color: gray; font-weight: 400; font-size: 0.85rem"
+            >HOBBIES & INTEREST</span
+          >
+          <p style="font-size: 1.4rem; line-height: 2rem">
+            Social Work for the underpriviledge.
+          </p>
+        </div>
+        <div>
+          <span style="color: gray; font-weight: 400; font-size: 0.85rem"
+            >ABOUT THE TEMPLATE</span
+          >
+          <p style="font-size: 1.4rem; line-height: 2rem">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+            eveniet architecto tenetur animi provident placeat, esse quisquam
+            eum non optio asperiores suscipit exercitationem in, cum delectus
+            fuga dolore? Perspiciatis, dolor
           </p>
         </div>
       </div>
